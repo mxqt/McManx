@@ -1,9 +1,3 @@
-@font-face {
-    font-family: "NSW01";
-    src:url("NSW01.woff") format('woff');
-}
-
-
 a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote,
 body, canvas, caption, center, cite, code, dd, del, details, dfn, dialog,
 div, dl, dt, em, embed, fieldset, figcaption, figure, font, footer, form,
@@ -151,7 +145,7 @@ top: 2vh;
   .work img{
 max-width: 100vw;
 max-height: 100vh;
-padding-top: 10vh;
+padding-top: 15vh;
 }
   
     
