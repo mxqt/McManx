@@ -143,29 +143,9 @@ top: 2vh;
     
     
   .work img{
-max-width: 100vw;
+max-width: 95vw;
 max-height: 100vh;
 padding-top: 15vh;
 }
   
     
- #half{
-    width: auto;
-    height:auto;
-}   
-    
-    
-    
-.container{
-    margin-bottom: 2vh;
-}
-
-h1{
-
-}
-
-
-.main-nav{
-      z-index: 1;
-      margin-left: 2vw;
-}
