@@ -20,7 +20,7 @@
 <a href="https://www.instagram.com/mcmanxmedia/"><img src="img/logo.svg" alt="McManx"></a>
 </div>
 
-<div class="work">
+<div class="work" id="work">
 <li id="#i5"><img src="img/1.gif" alt="Media"></li>
 </div>
     
@@ -32,9 +32,26 @@
 <img src="img/5.jpg" alt="Media">
 </div>
 
+<script>
+    
 
+$(document).ready(function() {
+	$("body").css("display", "none").hide();
+    $("body").delay(400).fadeIn(450);
+
+});
+    
+$(document).ready(function() {
+	$("#work").css("display", "none").hide();
+    $("#work").delay(900).fadeIn(950);
+
+});
+
+
+</script>
 
 <!--
+
 <footer>
 <section class="information">
 
@@ -51,6 +68,7 @@
     </div>
     </section>
 </footer>
+-->
 
 </body>
 
