@@ -15,12 +15,14 @@
 </head>
 
 <body>
-    
-<div class="main-nav">
+
+
+<div class="main-nav" id="nav">
 <a href="https://www.instagram.com/mcmanxmedia/"><img src="img/logo.svg" alt="McManx"></a>
 </div>
 
-<div class="work" id="work">
+<div id="fade">
+<div class="work">
 <li id="#i5"><img src="img/1.gif" alt="Media"></li>
 </div>
     
@@ -30,23 +32,22 @@
 <img src="img/4.jpg" alt="Media">
 <img src="img/1.jpg" alt="Media">
 <img src="img/5.jpg" alt="Media">
-</div>
+</div></div>
 
 <script>
-    
 
 $(document).ready(function() {
-	$("body").css("display", "none").hide();
-    $("body").delay(400).fadeIn(450);
-
-});
-    
-$(document).ready(function() {
-	$("#work").css("display", "none").hide();
-    $("#work").delay(900).fadeIn(950);
+	$("#nav").css("display","none").hide();
+    $("#nav").delay(300).fadeIn(650);
 
 });
 
+$(document).ready(function() {
+	$("#fade").css("display","none").hide();
+    $("#fade").delay(900).fadeIn(2000);
+
+});
+    
 
 </script>
 
