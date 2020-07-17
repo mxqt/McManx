@@ -44,6 +44,10 @@
  
     }
 
+    section{
+      top: 10px;
+    }
+
 
    .nav-head {
        padding-bottom: 0px;
@@ -51,7 +55,7 @@
 
     .nav-body {
         padding-bottom: 5px;
-        width: 70vw;
+        width: 80vw;
     }
 
     main.open{
