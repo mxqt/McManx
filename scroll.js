@@ -1,3 +1,4 @@
+const pixelsTag = document.querySelector("pixels")
 const bodyTag = document.querySelector("body")
 const sectionsTag = document.querySelectorAll("section")
 const clientTag = document.querySelector("div.client")
@@ -41,5 +42,32 @@ document.addEventListener("scroll", function () {
      })
  })
 
+
+ // when we scroll the page, make things parallax
+// we want to move certain tags, based on how far they are from an anchor point
+// what is the anchor? well its the middle of the section
+// how far should we parallax? well, it's a ratio of the middle distance scrolled to the middle point of the anchor
+document.addEventListener("scroll", function () {
+    const topViewport = window.pageYOffset
+    const midViewport = topViewport + (window.innerHeight / 2)
+    
+
+    sectionsTag.forEach (section => {
+        const topSection = section.offsetTop
+        const midSection = topSection + (section.offsetHeight / 2)
+
+        const distanceToSection = midViewport - midSection
+
+        const parallaxTags = section.querySelectorAll(`[data-parallax]`)
+
+        parallaxTags.forEach(tag => {
+
+            const speed = parseFloat(tag.hasAttribute("data-parallax"))
+            tag.style.transform = `translate(0, ${distanceToSection * 0.25}px)`
+
+        })
+    })  
+    })
+  
 
     

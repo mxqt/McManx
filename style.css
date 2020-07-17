@@ -170,3 +170,22 @@ a.toggle-nav {
   padding: 24px;
   font-size: 20px!important;
 }
+
+
+
+div.square {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -80px;
+  left: -50px;
+}
+
+div.circle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 50px;
+  right: -50px;
+  border-radius: 50%;
+}
