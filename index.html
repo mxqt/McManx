@@ -1,76 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
 <!-- meta -->
-  <meta charset="utf-8">
-    <meta name="description" content="Logan Mcmanus is based in Sydney, Australia. Specialising in lifestyle and corporate photography.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- title -->
-  <title>McManx Media</title>
-<!-- styles -->
-  <link href="styles.css" rel="stylesheet">
-<!-- scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/pace.min.js"></script>
+    
+<meta charset="utf-8">
+<meta name="description" content="Logan Mcmanus is currently a photoographer based in Sydney, Australia">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="style.css" rel="stylesheet">
+<link href="media.css" rel="stylesheet">
+
 </head>
-
 <body>
+<nav>
+  <div class="nav-head">
+  <a>Logan Mcmanus</a></div>
+  <div class="nav-body">
+  <a>Based in Sydney, Australia, specialises in lifestyle and corporate photography.</a></div>
+  <div class="nav-head">
+  <a>Contact</a></div>
+  <div class="nav-body">
+  <a href="email">Email</a><br>
+  <a href="email">Instagram</a><br>
+  <a href="email">Phone</a></div>
+  <div class="nav-head">
+    <a>Clients</a></div>
+    <div class="nav-body">
+    <a href="email">Mcmanus Group</a><br>
+    <a href="email">The Nutrition Expedition</a><br>
+    <a href="email">Cooley Auctions</a>
+  </div>
+</nav>
+
+<main>
+
+  <header>
+    <h1>McManx</h1><h2>Media</h2>
+  </header>
 
 
-<div class="main-nav" id="nav">
-<a href="https://www.instagram.com/mcmanxmedia/"><img src="img/logo.svg" alt="McManx"></a>
+<section data-client="Indoor">
+  <div class="client"><h3>Indoor</h3></div>
+<div class="content">
+  <img src="img/image1.gif" srcset="img/image1.gif, img/image1-2x.jpg" alt="">
+
 </div>
 
-<div id="fade">
-<div class="work">
-<li id="#i5"><img src="img/1.gif" alt="Media"></li>
-</div>
+</section>
+
+<section class="s2" data-client="Outdoor" data-is-dark="yes">
+  <div class="content">
+    <img src="img/image2.jpg" srcset="img/image2.jpg, img/image2-2x.jpg" alt="">    
+  </div>
+  </section>
+
+  <section class="s3" data-client="Photographer">
+    <div class="content">
     
-<div class="mobile">
-<img src="img/2.jpg" alt="Media">
-<img src="img/3.jpg" alt="Media">
-<img src="img/4.jpg" alt="Media">
-<img src="img/1.jpg" alt="Media">
-<img src="img/5.jpg" alt="Media">
-</div></div>
-
-<script>
-
-$(document).ready(function() {
-	$("#nav").css("display","none").hide();
-    $("#nav").delay(300).fadeIn(650);
-
-});
-
-$(document).ready(function() {
-	$("#fade").css("display","none").hide();
-    $("#fade").delay(900).fadeIn(2000);
-
-});
-    
-
-</script>
-
-<!--
-
-<footer>
-<section class="information">
-
-<div class="container">
-<h1>Email</h1>
-            <a href="mailto:logan1410@icloud.com">Loganmcmanus1410@icloud.com</a><br>
-
-    </div>
-
-    <div class="container">
-<h1>Instagram</h1>
-            <a href="https://www.instagram.com/mcmanxmedia/">@mcmanxmedia</a><br><br>
-
+      
+      <img src="img/image3.jpg" srcset="img/image3.jpg, img/image3-2x.jpg" alt="">
+      
     </div>
     </section>
-</footer>
--->
+
+<section class="s2" data-client="Sydney" data-is-dark="yes">
+      <div class="content">
+        <img src="img/image4.png" srcset="img/image4.png, img/image2-2x.jpg" alt="">    
+      </div>
+</section>
+  
+    
+  </main>
+<a class="toggle-nav">info</a>
 
 </body>
 
+<script type="text/javascript" src="scroll.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+
 </html>
+

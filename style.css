@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "Yellix Med";
+  src: url(Yellix-Medium.woff);
+  
+}
+@font-face {
+  font-family: "Yellix Bold";
+  src: url(Yellix-Bold.woff);
+}
+
+body {
+  font-family: "Yellix Med", Helvetica, sans-serif;
+  font-size: 200px;
+  background-color: #f8f6f1;
+  color: #1a191a;
+}
+
+h1{
+  font-family: "Yellix Bold", Helvetica, sans-serif;
+  font-size: 50px;
+  line-height: 0;
+  letter-spacing: -2px;
+  font-variant-alternates: swash(fancy);
+}
+
+h2{
+  font-family: "Yellix Med",  Helvetica, sans-serif;
+  font-size: 50px;
+  line-height: 0;
+  letter-spacing: -2px;
+}
+
+
+h3 {
+  display: absolute;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
+}
+
+header {
+  position: fixed;
+  display: inline;
+  z-index: 3;
+  top: 0;
+  left: 15px;
+}
+
+header.white {
+  color: #f8f6f1;
+}
+
+div.client.white {
+  color: #f8f6f1;
+}
+
+
+
+div.client {
+  position: fixed;
+  z-index: 2;
+}
+
+section {
+  background-color: #f8f6f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.content {
+  position: relative;
+}
+
+div.content img{
+  position: relative;
+}
+
+
+section.s2 {
+  background-color: #1a191a;
+}
+
+section.s3 {
+  background-color: #f8f6f1;
+}
+
+
+div.slides {
+  height: 475px;
+  align-items: center;
+  position: relative;
+}
+
+div.slides img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform .5s, box-shadow 0.5s;
+}
+
+div.slides img:first-child {
+  z-index: 1;
+}
+
+div.slides:hover img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+nav {
+  position: fixed;
+  top: -300px;
+  width: 100vw;
+  height: 180px;
+  left: 0;
+  padding-top: 30px;
+  padding-left: 25px;
+  background-color: #f8f6f1;
+  color: #1a191a;
+  font-family: "Yellix Bold";
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: top .5s;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 20vw 35vw 20vw 40vw;
+}
+
+nav a {
+  color: #2a2a2a;
+  text-decoration: none;
+}
+
+.nav-body {
+  font-family: "Yellix Med";
+  width: 400px;
+}
+
+nav.open {
+  top:0;
+}
+
+
+main {
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
+  min-height: 100vh;
+  transition: transform 0.5s;
+}
+
+main.open{
+  transform: translate(0, 250px);
+}
+
+.toggle-nav {
+  font-family: "Yellix Med";
+  text-decoration: none;
+  color: #2a2a2a;
+}
+
+a.toggle-nav {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  padding: 24px;
+  font-size: 20px!important;
+}

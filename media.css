@@ -1,0 +1,32 @@
+@media screen and (min-width: 0px) and (max-width: 856px) {
+
+    body {
+        font-size: 75px;
+
+    }
+
+
+    h3 {
+        font-size: 75px;
+      }
+
+
+    nav {
+    top: -450px;
+    height: 400px;
+    grid-template-columns: 90vw;
+    }
+
+   .nav-head {
+       padding-bottom: 0px;
+   }
+
+    .nav-body {
+        padding-bottom: 5px;
+    }
+
+    main.open{
+        transform: translate(0, 450px);
+      }
+
+}
