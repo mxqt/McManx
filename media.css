@@ -66,4 +66,13 @@
         background-color: #f8f6f1;
       }
 
+
+.square{
+  display: none;
+}
+
+.circle {
+  display: none;
+}
+
 }
