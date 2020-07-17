@@ -1,9 +1,22 @@
 @media screen and (min-width: 0px) and (max-width: 856px) {
 
+    header {
+        position: fixed;
+    }
+
     body {
-        font-size: 75px;
+        font-size: 55px;
 
     }
+
+    header.white {
+        color: #1a191a;
+      }
+      
+      div.client.white {
+        color: #1a191a;
+      }
+      
 
 
     h3 {
@@ -17,16 +30,22 @@
     grid-template-columns: 90vw;
     }
 
+
    .nav-head {
        padding-bottom: 0px;
    }
 
     .nav-body {
         padding-bottom: 5px;
+        width: 70vw;
     }
 
     main.open{
         transform: translate(0, 450px);
+      }
+
+      section.s2 {
+        background-color: #f8f6f1;
       }
 
 }
