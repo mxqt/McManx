@@ -10,7 +10,7 @@
 
 body {
   font-family: "Yellix Med", Helvetica, sans-serif;
-  font-size: 200px;
+  font-size: 145px;
   background-color: #f8f6f1;
   color: #1a191a;
 }
@@ -35,7 +35,7 @@ h3 {
   display: absolute;
   justify-content: center;
   align-items: center;
-  font-size: 200px;
+  font-size: 145px;
 }
 
 header {
