@@ -2,8 +2,7 @@
 
     header {
         position: fixed;
-        left: 10px;
-        top: 10px;
+        padding: 24px;
     }
 
     body {
@@ -37,14 +36,13 @@
     nav {
     top: -450px;
     height: 400px;
-    padding-top: 10px;
-    padding-left: 10px;
-    padding-bottom: 15px;
     grid-template-columns: 90vw;
     }
 
     a.toggle-nav {
-      padding: 10px;}
+      position: fixed;
+ 
+    }
 
 
    .nav-head {
