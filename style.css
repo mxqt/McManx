@@ -169,6 +169,7 @@ a.toggle-nav {
   right: 0;
   padding: 24px;
   font-size: 20px!important;
+  cursor: pointer;
 }
 
 
