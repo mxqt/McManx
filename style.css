@@ -191,12 +191,10 @@ div.circle {
   width: 100px;
   height: 100px;
   position: absolute;
-  bottom: 15px;
+  bottom: -20px;
   right: -50px;
   border-radius: 50%;
 }
-
-
 
 
 .cycle-slideshow{
@@ -215,22 +213,6 @@ div.circle {
 	font-size: 23px;
 }
 
-.title{
-  margin-top: 15px;
-	margin-bottom: 30px;
-	font-size: 24px;
-	line-height: 30px;
-	max-width: 50vw;
-}
-
-.title-mobile{
-  font-family: "Helvetica Neue";
-	display: none;
-	margin-top: 15px;
-	width: calc(100% - 100px);
-	margin-bottom: 60px;
-	font-size: 1.8rem;
-}
 
 .cycle-next{
 	height: 100%;
@@ -241,10 +223,3 @@ div.circle {
 	cursor: pointer;
 }
 
-
-.container {
-    display: inline-block;
-    cursor: pointer;
-		padding-right: 50px;
-		padding-top: 20px;
-	}
