@@ -13,7 +13,7 @@ document.addEventListener("scroll", function () {
     const pixels = window.pageYOffset
 
     sectionsTag.forEach(section => {
-    if (section.offsetTop - 545 <= pixels) {
+    if (section.offsetTop - 450 <= pixels) {
 
     clientTag.innerHTML = section.getAttribute("data-client")
 
